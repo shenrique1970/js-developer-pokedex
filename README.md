@@ -1,1 +1,1 @@
-# Trilha JS Developer - Pokedex
+# Fork de projeto

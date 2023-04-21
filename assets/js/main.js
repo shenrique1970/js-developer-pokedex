@@ -17,7 +17,7 @@ function convertPokemonToLi(pokemon) {
                 </ol>
 
                 <img src="${pokemon.photo}"
-                     alt="${pokemon.name}">
+                     alt="${pokemon.name}" onclick="abrirModal('v_modal')">
             </div>
         </li>
     `
@@ -45,3 +45,8 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+function abrirModal(v_modal) {
+    console.log('Cheguei')
+}
+

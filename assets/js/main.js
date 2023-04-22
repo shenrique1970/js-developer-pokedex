@@ -45,8 +45,3 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
-
-function abrirModal(v_modal) {
-    console.log('Cheguei')
-}
-
